@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practice</title>
+</head>
+<body>
+	<div class="content">
+		<form id="content">
+			<label for="lname">Last Name:</label>
+			<input type="text" name="lname" id="lname">
+			<label for="fname">First Name:</label>
+			<input type="text" name="fname" id="fname">
+			<br><br>
+			<label for="jutsu">Jutsu:</label>
+			<input type="text" name="jutsu" id="jutsu">
+			<br><br>
+			<label for="nature">Nature:</label><br>
+			<input type="radio" name="wind" id="wind" value="wind">
+			<label for="wind">Wind</label><br>
+			<input type="radio" name="water" id="water" value="water">
+			<label for="water">Water</label><br>
+			<input type="radio" name="earth" id="earth" value="earth">
+			<label for="earth">Earth</label><br>
+			<input type="radio" name="fire" id="fire" value="fire">
+			<label for="fire">Fire</label><br>
+			<input type="radio" name="wood" id="wood" value="wood">
+			<label for="wood">Wood</label><br>
+			<input type="radio" name="lightning" id="lightning" value="lightning">
+			<label for="lightning">Lightning</label><br><br>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+
+	<br>
+
+	<div class="result">
+		<form id="result">
+			<label for="selection">Show:</label>
+			<select id="selection" name="showResult">
+				<option value="all">All</option>
+				<option value="lname">Lastname</option>
+				<option value="fname">Firstname</option>
+				<option value="jutsu">Jutsu</option>
+				<option value="wind">Wind</option>
+				<option value="water">Water</option>
+				<option value="earth">Earth</option>
+				<option value="fire">Fire</option>
+				<option value="wood">Wood</option>
+				<option value="lightning">Lightning</option>
+				<br>
+				<input type="submit" value="submit">
+			</select>
+		</form>
+		<div id="show"></div>
+	</div>
+
+</body>
+</html>
